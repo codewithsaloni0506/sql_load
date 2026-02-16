@@ -43,8 +43,6 @@ sql_load/
 
 ## 🚀 How to Run This Project (PostgreSQL)
 
-Follow these steps to execute the SQL scripts:
-
 ### 1️⃣ Clone the Repository
 
 ```bash
@@ -60,8 +58,6 @@ VS Code SQL Extension
 PostgreSQL Terminal (psql)
 
 3️⃣ Execute Scripts in Order
-Run the SQL files sequentially:
-
 -- Step 1: Create Database
 \i 1_create_database.sql
 
@@ -71,13 +67,11 @@ Run the SQL files sequentially:
 -- Step 3: Modify Tables + Load Data
 \i 3_modify_tables.sql
 📥 Data Loading
-This project uses PostgreSQL’s efficient COPY command to load CSV files into tables:
+This project uses PostgreSQL’s efficient COPY command:
 
 COPY company_dim
 FROM 'path/company_dim.csv'
 WITH (FORMAT csv, HEADER true);
-This demonstrates a real-world approach to building an analytics-ready database.
-
 🎯 Learning Outcomes
 By working through this project, you will understand:
 
@@ -96,14 +90,12 @@ Possible enhancements for this project:
 
 Add analytical SQL queries
 
-Add ER diagrams for schema visualization
+Add ER diagrams
 
 Include advanced reporting queries
 
-Automate loading using Python
+Automate loading with Python
 
 👩‍💻 Author
 Created by Saloni
 GitHub: codewithsaloni0506
-
-

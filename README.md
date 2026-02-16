@@ -41,6 +41,24 @@ sql_load/
 
 ---
 
+
+---
+
+# 📊 Visual Insights
+
+## 💰 Top Paying Data Analyst Skills
+
+![Top Skills](project1/assets/top_skills.png)
+
+---
+
+## 🔥 Most In-Demand Skills
+
+![In Demand Skills](project1/assets/indemand%20skill.png)
+
+---
+
+
 ## 🚀 How to Run This Project (PostgreSQL)
 
 ### 1️⃣ Clone the Repository
@@ -72,14 +90,6 @@ This project uses PostgreSQL’s efficient COPY command:
 COPY company_dim
 FROM 'path/company_dim.csv'
 WITH (FORMAT csv, HEADER true);
-
-
-Diagrams 
-
-![In-Demand Skills](sql_load/project1/assets/indemand skill.png)
-
-![Top Paying skills](sql_load/project1/assets/top_skills.png)
-
 
 🎯 Learning Outcomes
 By working through this project, you will understand:

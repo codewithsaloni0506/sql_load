@@ -54,7 +54,7 @@ sql_load/
 
 ## 🔥 Most In-Demand Skills
 
-![In Demand Skills](project1/assets/indemand%20skill.png)
+![In Demand Skills](project1/assets/indemand_skill.png)
 
 ---
 

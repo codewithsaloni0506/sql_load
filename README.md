@@ -76,9 +76,9 @@ WITH (FORMAT csv, HEADER true);
 
 Diagrams 
 
-![In-Demand Skills](sql_load\project1\assets\indemand skill.png)
+![In-Demand Skills](sql_load/project1/assets/indemand skill.png)
 
-![Top Paying skills](sql_load\project1\assets\top_skills.png)
+![Top Paying skills](sql_load/project1/assets/top_skills.png)
 
 
 🎯 Learning Outcomes
